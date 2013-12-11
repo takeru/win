@@ -31,6 +31,6 @@ Gem::Specification.new do |gem|
   # Dependencies
   gem.add_development_dependency 'rspec', [">= 2.0.9"]
   gem.add_dependency 'bundler', [">= 1.0.13"]
-  gem.add_dependency 'ffi', "= 1.9.3"
+  gem.add_dependency 'ffi' # "1.9.3 x86-mingw32"
 end
 
